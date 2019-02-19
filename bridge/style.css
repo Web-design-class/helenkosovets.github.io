@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+#header {
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    background-color: lightgreen;
+    border: 4px solid green;
+    border-radius: 40px;
+    margin-bottom: 40px;
+
+}
+
+#navigator {
+    display: inline-block;
+    width: 30%;
+    height: 450px;
+    margin-left: 5%;
+    background-color: lightblue;
+    border: 2px solid blue;
+    border-radius: 40px;
+}
+
+#content {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    height: 450px;
+    margin-left: 20px;
+    background-color: violet;
+    border: 2px solid violet;
+    border-radius: 40px;
+}
+
+#content h2{
+    font-size: 34px;
+    text-align: center;
+    background-color: lightblue;
+    line-height: 1.5;
+    margin: 20px;
+    text-shadow: 2px 2px white;
+}
+
+#content p{
+    font-size: 12pt;
+    text-align: justify;
+    line-height: 1.3;
+    margin: 2px;
+    text-indent: 50px;
+}
+
+#header h1{
+    font-size: 44px;
+    color: red;
+    text-align: center;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+#footer{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    background-color: lightgreen;
+    margin-top: 40px;
+}
+
+ul {
+    list-style-image: url("images/marker1.png");
+    font-size: 28px;
+    margin: 20px;
+    line-height: 1.5;
+    font-family: "Monotype Corsiva";
+}
+
+img{
+    width: 300px;
+    border-radius: 20px;
+}
